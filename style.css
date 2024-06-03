@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+body{
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choice img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+.score{
+    font-size: 2rem;
+}
+.msg{
+    background-color: black;
+    color:white;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
